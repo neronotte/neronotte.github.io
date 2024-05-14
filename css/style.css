@@ -2,7 +2,6 @@
 	--background-color: #1f1f1f;
 	--text-color: #868686;
 }
-
 * {
 	box-sizing: border-box;
 }
@@ -41,7 +40,7 @@ body {
 	font-weight: 700;
 	text-align: center;
 	color: #fff;
-	text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+	text-shadow: 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
 }
 .container h1 span {
 	font-size: 2.2rem;
