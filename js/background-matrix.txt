@@ -1,0 +1,60 @@
+string greeting = "Hello, welcome to my site!";
+for (int i = 0; i < 10; i++) { Console.WriteLine(i); } 
+<button class="btn" onclick="submitForm()">Submit</button> 
+let currentDate = new Date().toLocaleDateString(); 
+SINGLE RESPONSIBILITY PRINCIPLE 
+document.body.style.backgroundColor = "#e0e0e0"; 
+foreach (var item in items) { Console.WriteLine(item); } 
+if (isValid) { performAction(); } 
+<h2 class="title">This is a heading</h2> 
+public int Add(int x, int y) { return x + y; } 
+<input type="checkbox" id="acceptTerms"> 
+let array = [1, 2, 3, 4, 5]; array.forEach(num => console.log(num)); 
+private async Task LoadDataAsync() { await Task.Delay(1000); } 
+document.getElementById('output').innerText = 'Updated text'; 
+var data = await client.GetStringAsync("https://api.example.com/data"); 
+document.querySelector('h1').innerHTML = 'New Title'; 
+var client = new CrmServiceClient(connectionString);
+try { var response = await client.GetAsync(url); } catch (Exception ex) { Console.WriteLine(ex.Message); } 
+let item = document.createElement('li'); item.textContent = 'New item'; 
+var options = new JsonSerializerOptions { WriteIndented = true }; 
+document.querySelectorAll('.item').forEach(el => el.style.color = 'red'); 
+let formData = new FormData(); formData.append('key', 'value'); 
+if (user.IsAuthenticated) { ShowUserDetails(); } 
+<textarea id="comments" rows="4" cols="50">Enter text here...</textarea> 
+<button type="button" class="btn-close" aria-label="Close">Close</button> 
+public void PrintMessage(string message) { Console.WriteLine(message); } 
+let intervalId = setInterval(() => { console.log('Interval running'); }, 1000); 
+<input type="password" id="passwordField"> 
+var numbers = Enumerable.Range(1, 10); foreach (var number in numbers) { Console.WriteLine(number); } 
+document.cookie = "user=John; expires=Tue, 1 Jan 2025 00:00:00 UTC; path=/"; 
+await context.SaveChangesAsync(); 
+let json = JSON.stringify({ key: 'value' }); 
+document.title = "New Page Title"; 
+let myMap = new Map(); myMap.set('key', 'value'); 
+<select id="dropdown"><option value="1">Option 1</option></select> 
+let buffer = new ArrayBuffer(16); 
+public bool IsValid { get; set; } = true; 
+<input type="radio" name="option" value="1">Option 1</input> 
+function createObject(name, value) { return { name, value }; } 
+AVOID ARROW ANTIPATTERN!!! 
+await Task.Run(() => { ProcessData(); }); 
+document.querySelector('.menu').classList.add('active'); 
+if (model == null) { throw new ArgumentNullException(nameof(model)); } 
+<button class="btn-danger" onclick="deleteItem()">Delete</button> 
+const throttledFunction = _.throttle(() => { console.log('Throttled function called'); }, 1000); 
+const observer = new MutationObserver(mutations => { mutations.forEach(mutation => { console.log(mutation); }); }); 
+const debounce = (func, delay) => { let debounceTimer; return function() { clearTimeout(debounceTimer); debounceTimer = setTimeout(() => func.apply(this, arguments), delay); }; }; 
+const cachedFunction = (() => { const cache = {}; return async function(url) { if (cache[url]) { return cache[url]; } const response = await fetch(url); const data = await response.json(); cache[url] = data; return data; }; })(); 
+var jsonString = JsonSerializer.Serialize(myObject, new JsonSerializerOptions { WriteIndented = true }); 
+await foreach (var number in GetNumbersAsync()) { Console.WriteLine(number); } 
+document.querySelector('.menu').classList.remove('active'); 
+let result = await fetch('https://api.example.com'); 
+let numbers = [1, 2, 3, 4, 5]; numbers.map(num => num * num); 
+const initOptions = { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ key: 'value' }) }; 
+const obj = { name: 'John', age: 30, city: 'New York' }; let keys = Object.keys(obj); 
+let sum = (a, b) => a + b; console.log(sum(5, 10)); 
+let multiply = (a, b) => a * b; console.log(multiply(3, 7)); 
+const asyncFunction = async () => { try { const response = await fetch(url); const data = await response.json(); console.log(data); } catch (error) { console.error('Error:', error); } }; 
+class MyClass { #privateField; constructor(value) { this.#privateField = value; } get value() { return this.#privateField; } static staticMethod() { console.log('Static method called'); } } 
+var client = new HttpClient(); client.DefaultRequestHeaders.Add("Authorization", "Bearer " + token); 
