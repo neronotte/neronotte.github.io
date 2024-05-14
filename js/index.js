@@ -20,6 +20,7 @@ var lines = [];
 function matrix() {
 	// Draw a semitransparent black rectangle on top of previous drawing
 	ctx.fillStyle = "#0001";
+	// ctx.clearRect(0, 0, w, h);
 	ctx.fillRect(0, 0, w, h);
 
 	// Set color to green and font to 15pt monospace in the drawing context
@@ -37,6 +38,10 @@ function matrix() {
 		const text = line[(y / 20) % line.length];
 
 		// render the character at (x, y)
+		ctx.clearRect(x, y, 20, 20);
+		ctx.fillStyle = "#000";
+		ctx.fillRect(x, y, 20, 20);
+		ctx.fillStyle = "#0a0";
 		ctx.fillText(text, x, y);
 
 		// randomly reset the end of the column if it's at least 100px high
