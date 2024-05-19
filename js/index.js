@@ -73,4 +73,4 @@ function typeWriter(el) {
 	}, 10000);
 }
 
-typeWriter(document.querySelector(".container h1 span"));
+typeWriter(document.querySelector(".container h1 span.typewriter"));

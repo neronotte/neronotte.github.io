@@ -1,0 +1,49 @@
+string greeting = "Hello, welcome to my site!";
+for (int i = 0; i < 10; i++) { Console.WriteLine(i); } 
+<button class="btn" onclick="submitForm()">Submit</button> 
+var request = new ExecuteMultipleRequest(); 
+SINGLE RESPONSIBILITY PRINCIPLE 
+foreach (var item in items) { Console.WriteLine(item); } 
+if (isValid) { performAction(); } 
+<h2 class="title">This is a heading</h2> 
+public int Add(int x, int y) { return x + y; } 
+<input type="checkbox" id="acceptTerms"> 
+WhoAmIRequest req = new WhoAmIRequest(); 
+private async Task LoadDataAsync() { await Task.Delay(1000); } 
+Early Bound vs Late Bound
+var data = await client.GetStringAsync("https://api.example.com/data"); 
+document.querySelector('h1').innerHTML = 'New Title';  
+var client = new CrmServiceClient(connectionString); 
+try { var response = await client.GetAsync(url); } catch (Exception ex) { Console.WriteLine(ex.Message); } 
+let item = document.createElement('li'); item.textContent = 'New item'; 
+DATAVERSE POWER APPS MODEL DRIVEN PRO CODE AVENGERS 
+var options = new JsonSerializerOptions { WriteIndented = true }; 
+document.querySelectorAll('.item').forEach(el => el.style.color = 'red'); 
+let formData = new FormData(); formData.append('key', 'value'); 
+if (user.IsAuthenticated) { ShowUserDetails(); } 
+<textarea id="comments" rows="4" cols="50">Enter text here...</textarea> 
+<button type="button" class="btn-close" aria-label="Close">Close</button> 
+public void PrintMessage(string message) { Console.WriteLine(message); } 
+let intervalId = setInterval(() => { console.log('Interval running'); }, 1000); 
+list.GroupBy(x => x.ProductName).Select(p => p.First()) 
+var numbers = Enumerable.Range(1, 10); foreach (var number in numbers) { Console.WriteLine(number); } 
+document.cookie = "user=John; expires=Tue, 1 Jan 2025 00:00:00 UTC; path=/"; 
+await context.SaveChangesAsync(); 
+let json = JSON.stringify({ key: 'value' }); 
+let myMap = new Map(); myMap.set('key', 'value'); 
+<select id="dropdown"><option value="1">Option 1</option></select> 
+function createObject(name, value) { return { name, value }; } 
+AVOID ARROW ANTIPATTERN!!! 
+await Task.Run(() => { ProcessData(); }); 
+document.querySelector('.menu').classList.add('active'); 
+if (model == null) { throw new ArgumentNullException(nameof(model)); } 
+await foreach (var number in GetNumbersAsync()) { Console.WriteLine(number); } 
+document.querySelector('.menu').classList.remove('active'); 
+let result = await fetch('https://api.example.com'); 
+let numbers = [1, 2, 3, 4, 5]; numbers.map(num => num * num); 
+const initOptions = { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ key: 'value' }) }; 
+const obj = { name: 'John', age: 30, city: 'New York' }; let keys = Object.keys(obj); 
+let sum = (a, b) => a + b; console.log(sum(5, 10)); 
+let multiply = (a, b) => a * b; console.log(multiply(3, 7)); 
+const asyncFunction = async () => { try { const response = await fetch(url); const data = await response.json(); console.log(data); } catch (error) { console.error('Error:', error); } }; 
+ar client = new HttpClient(); client.DefaultRequestHeaders.Add("Authorization", "Bearer " + token); 
